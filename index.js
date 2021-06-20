@@ -24,17 +24,17 @@ const inFiles = {
   stripe: parseCsv('stripe-export.csv'),
 };
 
-export function sortByFirstName() {
+export function sortBySignupDate() {
   return {
-    outFile: 'stripe-sorted-first-name.csv',
-    data: sortByFirstNameTransform(inFiles.stripe),
+    outFile: 'mailchimp-sorted-signup-date.csv',
+    data: sortBySignupDateTransform(inFiles.mailchimp),
   };
 }
 
-export function sortBySignupDate() {
+export function sortByFirstName() {
   return {
-    outFile: 'stripe-sorted-signup-date.csv',
-    data: sortBySignupDateTransform(inFiles.stripe),
+    outFile: 'mailchimp-sorted-first-name.csv',
+    data: sortByFirstNameTransform(inFiles.mailchimp),
   };
 }
 
