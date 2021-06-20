@@ -1,0 +1,17 @@
+{
+  "name": "changes-codealong",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:upleveled/changes-codealong.git",
+  "author": "Karl Horky <karl.horky@gmail.com>",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules yarn jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "dependencies": {
+    "csv": "^5.5.0"
+  }
+}
