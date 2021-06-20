@@ -1,0 +1,11 @@
+emailAddress,firstName,lastName,status,audienceName,subscribeDate
+tshakur@example.com,Tupac,Shakur,subscribed,Current Customers 2020,2008-02-04 22:08:42
+deon.evans@example.com,Deon,Evans,removed,Drip 2021,2008-01-09 18:12:01
+bonnie_raitt_1949@example.com,Bonnie,Raitt,subscribed,Drip 2021,2019-07-22 21:31:58
+hpn@example.com,Huey,Newton,subscribed,New Customers 2021,2021-02-07 09:40:01
+dunk@example.com,Janet,Jackson,subscribed,Drip 2021,2014-11-03 18:09:42
+bhornsby@example.com,Bruce,Hornsby,subscribed,Current Customers 2020,2008-04-23 08:46:45
+steinig@example.com,Leila,Steinberg,subscribed,New Customers 2021,2021-01-05 08:28:45
+franklin_f@example.com,Franklin,Fields,unsubscribed,Drip 2019,2018-12-07 16:59:23
+iggy@example.com,Isabella,Gibson,subscribed,Current Customers 2020,2009-06-18 11:40:20
+vicki@example.com,Vicki,Wells,subscribed,Drip 2021,2020-05-06 17:52:17
