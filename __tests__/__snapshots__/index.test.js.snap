@@ -1,0 +1,608 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`aggregates data across all channels 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "firstName": "Tupac",
+      "hubspotContactId": "1369",
+      "hubspotLeadStatus": "Current Customer",
+      "hubspotRegisteredAt": "2000-04-21 10:43:02",
+      "hubspotTotalValue": "34882",
+      "lastName": "Shakur",
+      "mailchimpAudienceName": "Current Customers 2020",
+      "mailchimpEmail": "tshakur@example.com",
+      "mailchimpStatus": "subscribed",
+      "mailchimpSubscribeDate": "2008-02-04 22:08:42",
+      "stripeCreatedAt": "24/03/2005 13:49:02",
+      "stripeEmail": "tshakur@example.com",
+      "stripeId": "cus_FjgM4QEipX9Dj",
+    },
+    Object {
+      "firstName": "Deon",
+      "hubspotContactId": "2224",
+      "hubspotLeadStatus": "Not Interested",
+      "hubspotRegisteredAt": "2008-01-07 14:22:01s0000s",
+      "hubspotTotalValue": "0",
+      "lastName": "Evans",
+      "mailchimpAudienceName": "Drip 2021",
+      "mailchimpEmail": "deon.evans@example.com",
+      "mailchimpStatus": "removed",
+      "mailchimpSubscribeDate": "2008-01-09 18:12:01",
+      "stripeCreatedAt": undefined,
+      "stripeEmail": undefined,
+      "stripeId": undefined,
+    },
+    Object {
+      "firstName": "Bonnie",
+      "hubspotContactId": "2917",
+      "hubspotLeadStatus": "Check Back",
+      "hubspotRegisteredAt": "2019-09-23 19:52:44",
+      "hubspotTotalValue": "2857",
+      "lastName": "Raitt",
+      "mailchimpAudienceName": "Drip 2021",
+      "mailchimpEmail": "bonnie_raitt_1949@example.com",
+      "mailchimpStatus": "subscribed",
+      "mailchimpSubscribeDate": "2019-07-22 21:31:58",
+      "stripeCreatedAt": undefined,
+      "stripeEmail": undefined,
+      "stripeId": undefined,
+    },
+    Object {
+      "firstName": "Huey",
+      "hubspotContactId": "3110",
+      "hubspotLeadStatus": "Open Offer",
+      "hubspotRegisteredAt": "2021-08-24 07:54:32",
+      "hubspotTotalValue": "4715",
+      "lastName": "Newton",
+      "mailchimpAudienceName": "New Customers 2021",
+      "mailchimpEmail": "hpn@example.com",
+      "mailchimpStatus": "subscribed",
+      "mailchimpSubscribeDate": "2021-02-07 09:40:01",
+      "stripeCreatedAt": undefined,
+      "stripeEmail": undefined,
+      "stripeId": undefined,
+    },
+    Object {
+      "firstName": "Janet",
+      "hubspotContactId": "2500",
+      "hubspotLeadStatus": "Not Interrrrrested",
+      "hubspotRegisteredAt": "2014-08-24 07:54:32",
+      "hubspotTotalValue": "0",
+      "lastName": "Jackson",
+      "mailchimpAudienceName": "Drip 2021",
+      "mailchimpEmail": "dunk@example.com",
+      "mailchimpStatus": "subscribed",
+      "mailchimpSubscribeDate": "2014-11-03 18:09:42",
+      "stripeCreatedAt": undefined,
+      "stripeEmail": undefined,
+      "stripeId": undefined,
+    },
+    Object {
+      "firstName": "Bruce",
+      "hubspotContactId": "1450",
+      "hubspotLeadStatus": "Current Customer",
+      "hubspotRegisteredAt": "2003-11-11 14:19:26",
+      "hubspotTotalValue": "10387",
+      "lastName": "Hornsby",
+      "mailchimpAudienceName": "Current Customers 2020",
+      "mailchimpEmail": "bhornsby@example.com",
+      "mailchimpStatus": "subscribed",
+      "mailchimpSubscribeDate": "2008-04-23 08:46:45",
+      "stripeCreatedAt": "11/11/2003 06:52:13",
+      "stripeEmail": "bhornsby@example.com",
+      "stripeId": "cus_FjgM4eC39HqLy",
+    },
+    Object {
+      "firstName": "Leila",
+      "hubspotContactId": "3090",
+      "hubspotLeadStatus": "Current Customerr",
+      "hubspotRegisteredAt": "2021-08-22 14:03:15",
+      "hubspotTotalValue": "15853",
+      "lastName": "Steinberg",
+      "mailchimpAudienceName": "New Customers 2021",
+      "mailchimpEmail": "steinig@example.com",
+      "mailchimpStatus": "subscribed",
+      "mailchimpSubscribeDate": "2021-01-05 08:28:45",
+      "stripeCreatedAt": "12/05/2021 01:58:33",
+      "stripeEmail": "steinberg.leila@example.com",
+      "stripeId": "cus_FjgMe3HLyjWDa",
+    },
+    Object {
+      "firstName": "Franklin",
+      "hubspotContactId": "3001",
+      "hubspotLeadStatus": "Dead Opportunity",
+      "hubspotRegisteredAt": "2020-02-24 14:47:21",
+      "hubspotTotalValue": "0",
+      "lastName": "Fields",
+      "mailchimpAudienceName": "Drip 2019",
+      "mailchimpEmail": "franklin_f@example.com",
+      "mailchimpStatus": "unsubscribed",
+      "mailchimpSubscribeDate": "2018-12-07 16:59:23",
+      "stripeCreatedAt": "20/06/2020 10:49:08",
+      "stripeEmail": "franklin_f@example.com",
+      "stripeId": "cus_FjgMtT1Mrj39H",
+    },
+    Object {
+      "firstName": "Isabella",
+      "hubspotContactId": "2422",
+      "hubspotLeadStatus": "Current Customer",
+      "hubspotRegisteredAt": "2009-03-20 23:05:11",
+      "hubspotTotalValue": "7005",
+      "lastName": "Gibson",
+      "mailchimpAudienceName": "Current Customers 2020",
+      "mailchimpEmail": "iggy@example.com",
+      "mailchimpStatus": "subscribed",
+      "mailchimpSubscribeDate": "2009-06-18 11:40:20",
+      "stripeCreatedAt": "07/12/2009 04:32:04",
+      "stripeEmail": "isabella.gibson@example.com",
+      "stripeId": "cus_FjgMEiCSESjL9",
+    },
+    Object {
+      "firstName": "Vicki",
+      "hubspotContactId": "2995",
+      "hubspotLeadStatus": "Check Back",
+      "hubspotRegisteredAt": "2021-03-20 23:05:11",
+      "hubspotTotalValue": "5500",
+      "lastName": "Wells",
+      "mailchimpAudienceName": "Drip 2021",
+      "mailchimpEmail": "vicki@example.com",
+      "mailchimpStatus": "subscribed",
+      "mailchimpSubscribeDate": "2020-05-06 17:52:17",
+      "stripeCreatedAt": undefined,
+      "stripeEmail": undefined,
+      "stripeId": undefined,
+    },
+  ],
+  "outFile": "all-channels-aggregate.csv",
+}
+`;
+
+exports[`cleanses user data 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "Contact Id": "1369",
+      "First Name": "Tupac Amaru",
+      "Last Name": "Shakur",
+      "Lead Status": "Current Customer",
+      "Registered At": "2000-04-21 10:43:02",
+      "Total Value": "34882",
+    },
+    Object {
+      "Contact Id": "2224",
+      "First Name": "Deon",
+      "Last Name": "Evans",
+      "Lead Status": "Not Interested",
+      "Registered At": "2008-01-07 14:22:01",
+      "Total Value": "0",
+    },
+    Object {
+      "Contact Id": "2917",
+      "First Name": "Bonnie",
+      "Last Name": "Raitt",
+      "Lead Status": "Check Back",
+      "Registered At": "2019-09-23 19:52:44",
+      "Total Value": "2857",
+    },
+    Object {
+      "Contact Id": "3110",
+      "First Name": "Huey",
+      "Last Name": "Newton",
+      "Lead Status": "Open Offer",
+      "Registered At": "2021-08-24 07:54:32",
+      "Total Value": "4715",
+    },
+    Object {
+      "Contact Id": "2500",
+      "First Name": "Janet",
+      "Last Name": "Jackson",
+      "Lead Status": "Not Interested",
+      "Registered At": "2014-08-24 07:54:32",
+      "Total Value": "0",
+    },
+    Object {
+      "Contact Id": "1450",
+      "First Name": "Bruce",
+      "Last Name": "Hornsby",
+      "Lead Status": "Current Customer",
+      "Registered At": "2003-11-11 14:19:26",
+      "Total Value": "10387",
+    },
+    Object {
+      "Contact Id": "3090",
+      "First Name": "Leila",
+      "Last Name": "Steinberg",
+      "Lead Status": "Current Customer",
+      "Registered At": "2021-08-22 14:03:15",
+      "Total Value": "15853",
+    },
+    Object {
+      "Contact Id": "3001",
+      "First Name": "Franklin",
+      "Last Name": "Fields",
+      "Lead Status": "Dead Opportunity",
+      "Registered At": "2020-02-24 14:47:21",
+      "Total Value": "0",
+    },
+    Object {
+      "Contact Id": "2422",
+      "First Name": "Isabella",
+      "Last Name": "Gibson",
+      "Lead Status": "Current Customer",
+      "Registered At": "2009-03-20 23:05:11",
+      "Total Value": "7005",
+    },
+    Object {
+      "Contact Id": "2995",
+      "First Name": "Vicki",
+      "Last Name": "Wells",
+      "Lead Status": "Check Back",
+      "Registered At": "2021-03-20 23:05:11",
+      "Total Value": "5500",
+    },
+  ],
+  "outFile": "hubspot-cleansed.csv",
+}
+`;
+
+exports[`deduplicates users 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "created_at_date": "24/03/2005 13:49:02",
+      "email": "tshakur@example.com",
+      "id": "cus_FjgM4QEipX9Dj",
+      "name": "Tupac Amaru Shakur",
+    },
+    Object {
+      "created_at_date": "11/11/2003 06:52:13",
+      "email": "bhornsby@example.com",
+      "id": "cus_FjgM4eC39HqLy",
+      "name": "Bruce Hornsby",
+    },
+    Object {
+      "created_at_date": "12/05/2021 01:58:33",
+      "email": "steinberg.leila@example.com",
+      "id": "cus_FjgMe3HLyjWDa",
+      "name": "Leila Steinberg",
+    },
+    Object {
+      "created_at_date": "01/05/2006 06:52:13",
+      "email": "bhornsby@example.com",
+      "id": "cus_FjgM4eC39HqLy",
+      "name": "Bruce Hornsby",
+    },
+    Object {
+      "created_at_date": "20/06/2020 10:49:08",
+      "email": "franklin_f@example.com",
+      "id": "cus_FjgMtT1Mrj39H",
+      "name": "Franklin Fields",
+    },
+    Object {
+      "created_at_date": "07/12/2009 04:32:04",
+      "email": "isabella.gibson@example.com",
+      "id": "cus_FjgMEiCSESjL9",
+      "name": "Isabella Gibson",
+    },
+    Object {
+      "created_at_date": "14/12/2012 05:10:17",
+      "email": "isabella.gibson@example.com",
+      "id": "cus_FjgMEiCSESjL9",
+      "name": "Isabella Gibson",
+    },
+    Object {
+      "created_at_date": "12/07/2015 10:12:53",
+      "email": "tshakur@example.com",
+      "id": "cus_FjgM4QEipX9Dj",
+      "name": "Tupac Amaru Shakur",
+    },
+  ],
+  "outFile": "stripe-deduplicated.csv",
+}
+`;
+
+exports[`filters to created after 2010 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "created_at_date": "12/05/2021 01:58:33",
+      "email": "steinberg.leila@example.com",
+      "id": "cus_FjgMe3HLyjWDa",
+      "name": "Leila Steinberg",
+    },
+    Object {
+      "created_at_date": "20/06/2020 10:49:08",
+      "email": "franklin_f@example.com",
+      "id": "cus_FjgMtT1Mrj39H",
+      "name": "Franklin Fields",
+    },
+    Object {
+      "created_at_date": "14/12/2012 05:10:17",
+      "email": "isabella.gibson@example.com",
+      "id": "cus_FjgMEiCSESjL9",
+      "name": "Isabella Gibson",
+    },
+    Object {
+      "created_at_date": "12/05/2021 01:58:33",
+      "email": "steinberg.leila@example.com",
+      "id": "cus_FjgMe3HLyjWDa",
+      "name": "Leila Steinberg",
+    },
+    Object {
+      "created_at_date": "12/07/2015 10:12:53",
+      "email": "tshakur@example.com",
+      "id": "cus_FjgM4QEipX9Dj",
+      "name": "Tupac Amaru Shakur",
+    },
+    Object {
+      "created_at_date": "20/06/2020 10:49:08",
+      "email": "franklin_f@example.com",
+      "id": "cus_FjgMtT1Mrj39H",
+      "name": "Franklin Fields",
+    },
+  ],
+  "outFile": "stripe-created-after-2010.csv",
+}
+`;
+
+exports[`filters to first name starting with B 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "Contact Id": "2917",
+      "First Name": "Bonnie",
+      "Last Name": "Raitt",
+      "Lead Status": "Check Back",
+      "Registered At": "2019-09-23 19:52:44",
+      "Total Value": "2857",
+    },
+    Object {
+      "Contact Id": "1450",
+      "First Name": "Bruce",
+      "Last Name": "Hornsby",
+      "Lead Status": "Current Customer",
+      "Registered At": "2003-11-11 14:19:26",
+      "Total Value": "10387",
+    },
+  ],
+  "outFile": "hubspot-first-name-b.csv",
+}
+`;
+
+exports[`gets interested, repeat customers 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "Contact Id": "1450",
+      "First Name": "Bruce",
+      "Last Name": "Hornsby",
+      "Lead Status": "Current Customer",
+      "Registered At": "2003-11-11 14:19:26",
+      "Total Value": "10387",
+    },
+    Object {
+      "Contact Id": "2422",
+      "First Name": "Isabella",
+      "Last Name": "Gibson",
+      "Lead Status": "Current Customer",
+      "Registered At": "2009-03-20 23:05:11",
+      "Total Value": "7005",
+    },
+  ],
+  "outFile": "all-channels-interested-repeat-customers.csv",
+}
+`;
+
+exports[`gets total value of all customers 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "total": 81199,
+    },
+  ],
+  "outFile": "hubspot-total-value-all-customers.csv",
+}
+`;
+
+exports[`gets users with non-matching emails 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "mailchimpAudienceName": "Current Customers 2020",
+      "mailchimpEmail": "iggy@example.com",
+      "mailchimpStatus": "subscribed",
+      "mailchimpSubscribeDate": "2009-06-18 11:40:20",
+      "stripeCreatedAt": "07/12/2009 04:32:04",
+      "stripeEmail": "isabella.gibson@example.com",
+      "stripeId": "cus_FjgMEiCSESjL9",
+    },
+    Object {
+      "mailchimpAudienceName": "New Customers 2021",
+      "mailchimpEmail": "steinig@example.com",
+      "mailchimpStatus": "subscribed",
+      "mailchimpSubscribeDate": "2021-01-05 08:28:45",
+      "stripeCreatedAt": "12/05/2021 01:58:33",
+      "stripeEmail": "steinberg.leila@example.com",
+      "stripeId": "cus_FjgMe3HLyjWDa",
+    },
+  ],
+  "outFile": "all-channels-users-non-matching-emails.csv",
+}
+`;
+
+exports[`sorts by first name 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "audienceName": "Drip 2021",
+      "emailAddress": "bonnie_raitt_1949@example.com",
+      "firstName": "Bonnie",
+      "lastName": "Raitt",
+      "status": "subscribed",
+      "subscribeDate": "2019-07-22 21:31:58",
+    },
+    Object {
+      "audienceName": "Current Customers 2020",
+      "emailAddress": "bhornsby@example.com",
+      "firstName": "Bruce",
+      "lastName": "Hornsby",
+      "status": "subscribed",
+      "subscribeDate": "2008-04-23 08:46:45",
+    },
+    Object {
+      "audienceName": "Drip 2021",
+      "emailAddress": "deon.evans@example.com",
+      "firstName": "Deon",
+      "lastName": "Evans",
+      "status": "removed",
+      "subscribeDate": "2008-01-09 18:12:01",
+    },
+    Object {
+      "audienceName": "Drip 2019",
+      "emailAddress": "franklin_f@example.com",
+      "firstName": "Franklin",
+      "lastName": "Fields",
+      "status": "unsubscribed",
+      "subscribeDate": "2018-12-07 16:59:23",
+    },
+    Object {
+      "audienceName": "New Customers 2021",
+      "emailAddress": "hpn@example.com",
+      "firstName": "Huey",
+      "lastName": "Newton",
+      "status": "subscribed",
+      "subscribeDate": "2021-02-07 09:40:01",
+    },
+    Object {
+      "audienceName": "Current Customers 2020",
+      "emailAddress": "iggy@example.com",
+      "firstName": "Isabella",
+      "lastName": "Gibson",
+      "status": "subscribed",
+      "subscribeDate": "2009-06-18 11:40:20",
+    },
+    Object {
+      "audienceName": "Drip 2021",
+      "emailAddress": "dunk@example.com",
+      "firstName": "Janet",
+      "lastName": "Jackson",
+      "status": "subscribed",
+      "subscribeDate": "2014-11-03 18:09:42",
+    },
+    Object {
+      "audienceName": "New Customers 2021",
+      "emailAddress": "steinig@example.com",
+      "firstName": "Leila",
+      "lastName": "Steinberg",
+      "status": "subscribed",
+      "subscribeDate": "2021-01-05 08:28:45",
+    },
+    Object {
+      "audienceName": "Current Customers 2020",
+      "emailAddress": "tshakur@example.com",
+      "firstName": "Tupac",
+      "lastName": "Shakur",
+      "status": "subscribed",
+      "subscribeDate": "2008-02-04 22:08:42",
+    },
+    Object {
+      "audienceName": "Drip 2021",
+      "emailAddress": "vicki@example.com",
+      "firstName": "Vicki",
+      "lastName": "Wells",
+      "status": "subscribed",
+      "subscribeDate": "2020-05-06 17:52:17",
+    },
+  ],
+  "outFile": "mailchimp-sorted-first-name.csv",
+}
+`;
+
+exports[`sorts by signup date 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "audienceName": "Drip 2021",
+      "emailAddress": "deon.evans@example.com",
+      "firstName": "Deon",
+      "lastName": "Evans",
+      "status": "removed",
+      "subscribeDate": "2008-01-09 18:12:01",
+    },
+    Object {
+      "audienceName": "Current Customers 2020",
+      "emailAddress": "tshakur@example.com",
+      "firstName": "Tupac",
+      "lastName": "Shakur",
+      "status": "subscribed",
+      "subscribeDate": "2008-02-04 22:08:42",
+    },
+    Object {
+      "audienceName": "Current Customers 2020",
+      "emailAddress": "bhornsby@example.com",
+      "firstName": "Bruce",
+      "lastName": "Hornsby",
+      "status": "subscribed",
+      "subscribeDate": "2008-04-23 08:46:45",
+    },
+    Object {
+      "audienceName": "Current Customers 2020",
+      "emailAddress": "iggy@example.com",
+      "firstName": "Isabella",
+      "lastName": "Gibson",
+      "status": "subscribed",
+      "subscribeDate": "2009-06-18 11:40:20",
+    },
+    Object {
+      "audienceName": "Drip 2021",
+      "emailAddress": "dunk@example.com",
+      "firstName": "Janet",
+      "lastName": "Jackson",
+      "status": "subscribed",
+      "subscribeDate": "2014-11-03 18:09:42",
+    },
+    Object {
+      "audienceName": "Drip 2019",
+      "emailAddress": "franklin_f@example.com",
+      "firstName": "Franklin",
+      "lastName": "Fields",
+      "status": "unsubscribed",
+      "subscribeDate": "2018-12-07 16:59:23",
+    },
+    Object {
+      "audienceName": "Drip 2021",
+      "emailAddress": "bonnie_raitt_1949@example.com",
+      "firstName": "Bonnie",
+      "lastName": "Raitt",
+      "status": "subscribed",
+      "subscribeDate": "2019-07-22 21:31:58",
+    },
+    Object {
+      "audienceName": "Drip 2021",
+      "emailAddress": "vicki@example.com",
+      "firstName": "Vicki",
+      "lastName": "Wells",
+      "status": "subscribed",
+      "subscribeDate": "2020-05-06 17:52:17",
+    },
+    Object {
+      "audienceName": "New Customers 2021",
+      "emailAddress": "steinig@example.com",
+      "firstName": "Leila",
+      "lastName": "Steinberg",
+      "status": "subscribed",
+      "subscribeDate": "2021-01-05 08:28:45",
+    },
+    Object {
+      "audienceName": "New Customers 2021",
+      "emailAddress": "hpn@example.com",
+      "firstName": "Huey",
+      "lastName": "Newton",
+      "status": "subscribed",
+      "subscribeDate": "2021-02-07 09:40:01",
+    },
+  ],
+  "outFile": "mailchimp-sorted-signup-date.csv",
+}
+`;
