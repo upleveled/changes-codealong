@@ -17,7 +17,7 @@ export function filterToCreatedAfter2010(input) {
 
 // Codealong: Data Aggregation, Deduplication and Cleansing in Node.js
 export function aggregateAllChannels(
-  inputHubSpot,
+  inputHubspot,
   inputMailchimp,
   inputStripe,
 ) {
