@@ -1,5 +1,5 @@
 // Codealong: Data Sorting and Filtering in Node.js
-export function sortBySignupDate(input) {
+export function sortBySubscriptionDate(input) {
   return input;
 }
 

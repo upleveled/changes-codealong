@@ -519,7 +519,7 @@ Object {
 }
 `;
 
-exports[`sorts by signup date 1`] = `
+exports[`sorts by subscription date 1`] = `
 Object {
   "data": Array [
     Object {
@@ -603,6 +603,6 @@ Object {
       "subscribeDate": "2021-02-07 09:40:01",
     },
   ],
-  "outFile": "mailchimp-sorted-signup-date.csv",
+  "outFile": "mailchimp-sorted-subscription-date.csv",
 }
 `;
