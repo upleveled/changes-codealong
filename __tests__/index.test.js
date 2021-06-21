@@ -8,15 +8,15 @@ import {
   getTotalValueOfAllCustomers,
   getUsersWithNonMatchingEmails,
   sortByFirstName,
-  sortBySignupDate,
+  sortBySubscriptionDate,
 } from '../index';
 
 test('sorts by first name', () => {
   expect(sortByFirstName()).toMatchSnapshot();
 });
 
-test('sorts by signup date', () => {
-  expect(sortBySignupDate()).toMatchSnapshot();
+test('sorts by subscription date', () => {
+  expect(sortBySubscriptionDate()).toMatchSnapshot();
 });
 
 test('filters to first name starting with B', () => {

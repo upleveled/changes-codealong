@@ -10,7 +10,7 @@ import {
   getTotalValueOfAllCustomers as getTotalValueOfAllCustomersTransform,
   getUsersWithNonMatchingEmails as getUsersWithNonMatchingEmailsTransform,
   sortByFirstName as sortByFirstNameTransform,
-  sortBySignupDate as sortBySignupDateTransform,
+  sortBySubscriptionDate as sortBySubscriptionDateTransform,
 } from './transformations.js';
 
 function parseCsv(inFile) {
@@ -24,10 +24,10 @@ const inFiles = {
   stripe: parseCsv('stripe-export.csv'),
 };
 
-export function sortBySignupDate() {
+export function sortBySubscriptionDate() {
   return {
-    outFile: 'mailchimp-sorted-signup-date.csv',
-    data: sortBySignupDateTransform(inFiles.mailchimp),
+    outFile: 'mailchimp-sorted-subscription-date.csv',
+    data: sortBySubscriptionDateTransform(inFiles.mailchimp),
   };
 }
 
@@ -106,7 +106,7 @@ export function getUsersWithNonMatchingEmails() {
 
 const commandFn = {
   sortByFirstName,
-  sortBySignupDate,
+  sortBySubscriptionDate,
   filterToFirstNameStartingWithB,
   filterToCreatedAfter2010,
   aggregateAllChannels,

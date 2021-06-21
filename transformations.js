@@ -5,7 +5,7 @@ function parseStripeDateFormat(dateString) {
 }
 
 // Codealong: Data Sorting and Filtering in Node.js
-export function sortBySignupDate(input) {
+export function sortBySubscriptionDate(input) {
   return input.sort(
     (a, b) => new Date(a.subscribeDate) - new Date(b.subscribeDate),
   );
