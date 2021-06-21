@@ -41,6 +41,6 @@ export function getTotalValueOfAllCustomers(input) {
   return input;
 }
 
-export function getUsersWithNonMatchingEmails(inputStripe, inputMailchimp) {
+export function getUsersWithNonMatchingEmails(inputMailchimp, inputStripe) {
   return [];
 }
