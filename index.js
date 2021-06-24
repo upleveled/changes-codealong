@@ -1,5 +1,7 @@
 import csv from 'csv/lib/sync.js';
 import fs from 'fs';
+import jsonToTable from 'json-to-table';
+import { table } from 'table';
 import {
   aggregateAllChannels as aggregateAllChannelsTransform,
   cleanse as cleanseTransform,
@@ -121,5 +123,6 @@ if (commandFn) {
   const { outFile, data } = commandFn();
   const outFilePath = 'dataOut/' + outFile;
   fs.writeFileSync(outFilePath, csv.stringify(data, { header: true }));
-  console.log(`Wrote file ${outFilePath} successfully!`);
+  console.log(`Wrote file ${outFilePath} successfully with following data:`);
+  console.log(table(jsonToTable(data)));
 }
