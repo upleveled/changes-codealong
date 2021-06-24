@@ -14,6 +14,8 @@
   "dependencies": {
     "cross-env": "^7.0.3",
     "csv": "^5.5.0",
-    "date-fns": "^2.22.1"
+    "date-fns": "^2.22.1",
+    "json-to-table": "^4.2.1",
+    "table": "^6.7.1"
   }
 }
