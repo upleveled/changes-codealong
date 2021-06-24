@@ -6,12 +6,13 @@
   "repository": "git@github.com:upleveled/changes-codealong.git",
   "author": "Karl Horky <karl.horky@gmail.com>",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules yarn jest"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules yarn jest"
   },
   "devDependencies": {
     "jest": "^27.0.4"
   },
   "dependencies": {
+    "cross-env": "^7.0.3",
     "csv": "^5.5.0",
     "date-fns": "^2.22.1"
   }
