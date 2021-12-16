@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import csv from 'csv/sync';
+import { parse, stringify } from 'csv/sync'; // eslint-disable-line import/no-unresolved -- https://github.com/import-js/eslint-plugin-import/issues/1868
 import jsonToTable from 'json-to-table';
 import { table } from 'table';
 import {
@@ -17,7 +17,7 @@ import {
 
 function parseCsv(inFile) {
   const fileContent = fs.readFileSync('dataIn/' + inFile, 'utf8');
-  return csv.parse(fileContent, { columns: true });
+  return parse(fileContent, { columns: true });
 }
 
 const inFiles = {
@@ -122,7 +122,7 @@ const commandFn = {
 if (commandFn) {
   const { outFile, data } = commandFn();
   const outFilePath = 'dataOut/' + outFile;
-  fs.writeFileSync(outFilePath, csv.stringify(data, { header: true }));
+  fs.writeFileSync(outFilePath, stringify(data, { header: true }));
   console.log(`Wrote file ${outFilePath} successfully with following data:`);
   console.log(table(jsonToTable(data)));
 }
