@@ -1,5 +1,6 @@
 {
   "extends": [
     "github>karlhorky/renovate-config"
-  ]
+  ],
+  "baseBranches": ["main", "solution"]
 }
