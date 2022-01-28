@@ -1,5 +1,5 @@
 import csv from 'csv/lib/sync.js';
-import fs from 'fs';
+import fs from 'node:fs';
 import jsonToTable from 'json-to-table';
 import { table } from 'table';
 import {
