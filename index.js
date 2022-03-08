@@ -1,7 +1,7 @@
 import fs from 'node:fs';
-import { parse, stringify } from 'csv/dist/esm/sync';
 import jsonToTable from 'json-to-table';
 import { table } from 'table';
+import { parse, stringify } from './node_modules/csv/dist/esm/sync.js';
 import {
   aggregateAllChannels as aggregateAllChannelsTransform,
   cleanse as cleanseTransform,
