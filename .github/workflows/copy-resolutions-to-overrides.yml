@@ -20,7 +20,7 @@ jobs:
           node-version: '16'
 
       - name: Copy "resolutions" object to "overrides" in package.json
-        run: yq --inplace --tojson '.overrides = .resolutions' package.json
+        run: yq --inplace --output=json '.overrides = .resolutions' package.json
         # run: yq '.overrides = .resolutions' package.json | sponge package.json
 
       - run: ls -al package.json
