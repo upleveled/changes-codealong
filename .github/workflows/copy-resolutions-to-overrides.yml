@@ -25,6 +25,7 @@ jobs:
 
       - run: ls -al package.json
       - run: cat package.json
+      - run: git diff
 
       # - name: Commit and create PR
       #   uses: peter-evans/create-pull-request@v4
