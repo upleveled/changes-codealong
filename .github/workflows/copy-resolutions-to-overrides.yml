@@ -27,6 +27,9 @@ jobs:
       - name: Copy "resolutions" object to "overrides" in package.json
         run: yq --inplace --output-format=json '.overrides = .resolutions' package.json
 
+      - name: Install any updated dependencies
+        run: npm install
+
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update Overrides from Resolutions
