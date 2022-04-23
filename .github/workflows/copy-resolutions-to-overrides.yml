@@ -22,7 +22,9 @@ jobs:
       - name: Copy "resolutions" object to "overrides" in package.json
         run: jq '.overrides = .resolutions' package.json > package.json
 
+      - run: ls -al package.json
       - run: cat package.json
+      - run: bat package.json
 
       # - name: Commit and create PR
       #   uses: peter-evans/create-pull-request@v4
