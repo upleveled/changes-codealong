@@ -1,6 +1,11 @@
 name: Copy Yarn Resolutions to npm Overrides
 
-on: [push]
+on:
+  push:
+    branches:
+      # Match every branch except for main
+      - '**'
+      - '!main'
 
 jobs:
   build:
