@@ -1,0 +1,31 @@
+name: Copy Yarn Resolutions to npm Overrides
+
+on: [push]
+
+jobs:
+  build:
+    name: Copy Yarn Resolutions to npm Overrides
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        # To trigger further `on: [push]` workflow runs
+        # Ref: https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#triggering-further-workflow-runs
+        # Ref: https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#push-using-ssh-deploy-keys
+        with:
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Copy "resolutions" object to "overrides" in package.json
+        run: jq '.overrides = .resolutions' package.json
+
+      # - name: Commit and create PR
+      #   uses: peter-evans/create-pull-request@v4
+      #   with:
+      #     branch: 'expo-upgrade-packages'
+      #     title: 'Upgrade packages to versions with Expo SDK support'
+      #     commit-message: 'Upgrade packages to versions with Expo SDK support'
+      #     body: 'Automated upgrade of packages to versions that are supported by current version of Expo SDK'
