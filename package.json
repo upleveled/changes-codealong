@@ -31,7 +31,7 @@
     "eslint-plugin-testing-library": "5.3.1",
     "eslint-plugin-unicorn": "42.0.0",
     "jest": "28.0.2",
-    "typescript": "4.6.3"
+    "typescript": "4.6.4"
   },
   "dependencies": {
     "cross-env": "7.0.3",
@@ -64,7 +64,7 @@
     "eslint-plugin-sonarjs": "0.13.0",
     "eslint-plugin-testing-library": "5.3.1",
     "eslint-plugin-unicorn": "42.0.0",
-    "typescript": "4.6.3"
+    "typescript": "4.6.4"
   },
   "overrides": {
     "@babel/eslint-parser": "7.17.0",
@@ -90,6 +90,6 @@
     "eslint-plugin-sonarjs": "0.13.0",
     "eslint-plugin-testing-library": "5.3.1",
     "eslint-plugin-unicorn": "42.0.0",
-    "typescript": "4.6.3"
+    "typescript": "4.6.4"
   }
 }
