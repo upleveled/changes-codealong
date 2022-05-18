@@ -4,7 +4,8 @@ on:
   push:
     branches:
       # Match every branch except for main
-      - '**'
+      # - '**'
+      - 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
       - '!main'
 
 jobs:
