@@ -5,6 +5,7 @@
   "type": "module",
   "repository": "git@github.com:upleveled/changes-codealong.git",
   "author": "Karl Horky <karl.horky@gmail.com>",
+
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules yarn jest"
   },
