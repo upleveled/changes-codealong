@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`aggregates data across all channels 1`] = `
-Object {
-  "data": Array [
-    Object {
+{
+  "data": [
+    {
       "firstName": "Tupac",
       "hubspotContactId": "1369",
       "hubspotLeadStatus": "Current Customer",
@@ -18,7 +18,7 @@ Object {
       "stripeEmail": "tshakur@example.com",
       "stripeId": "cus_FjgM4QEipX9Dj",
     },
-    Object {
+    {
       "firstName": "Deon",
       "hubspotContactId": "2224",
       "hubspotLeadStatus": "Not Interested",
@@ -33,7 +33,7 @@ Object {
       "stripeEmail": undefined,
       "stripeId": undefined,
     },
-    Object {
+    {
       "firstName": "Bonnie",
       "hubspotContactId": "2917",
       "hubspotLeadStatus": "Check Back",
@@ -48,7 +48,7 @@ Object {
       "stripeEmail": undefined,
       "stripeId": undefined,
     },
-    Object {
+    {
       "firstName": "Huey",
       "hubspotContactId": "3110",
       "hubspotLeadStatus": "Open Offer",
@@ -63,7 +63,7 @@ Object {
       "stripeEmail": undefined,
       "stripeId": undefined,
     },
-    Object {
+    {
       "firstName": "Janet",
       "hubspotContactId": "2500",
       "hubspotLeadStatus": "Not Interrrrrested",
@@ -78,7 +78,7 @@ Object {
       "stripeEmail": undefined,
       "stripeId": undefined,
     },
-    Object {
+    {
       "firstName": "Bruce",
       "hubspotContactId": "1450",
       "hubspotLeadStatus": "Current Customer",
@@ -93,7 +93,7 @@ Object {
       "stripeEmail": "bhornsby@example.com",
       "stripeId": "cus_FjgM4eC39HqLy",
     },
-    Object {
+    {
       "firstName": "Leila",
       "hubspotContactId": "3090",
       "hubspotLeadStatus": "Current Customerr",
@@ -108,7 +108,7 @@ Object {
       "stripeEmail": "steinberg.leila@example.com",
       "stripeId": "cus_FjgMe3HLyjWDa",
     },
-    Object {
+    {
       "firstName": "Franklin",
       "hubspotContactId": "3001",
       "hubspotLeadStatus": "Dead Opportunity",
@@ -123,7 +123,7 @@ Object {
       "stripeEmail": "franklin_f@example.com",
       "stripeId": "cus_FjgMtT1Mrj39H",
     },
-    Object {
+    {
       "firstName": "Isabella",
       "hubspotContactId": "2422",
       "hubspotLeadStatus": "Current Customer",
@@ -138,7 +138,7 @@ Object {
       "stripeEmail": "isabella.gibson@example.com",
       "stripeId": "cus_FjgMEiCSESjL9",
     },
-    Object {
+    {
       "firstName": "Vicki",
       "hubspotContactId": "2995",
       "hubspotLeadStatus": "Check Back",
@@ -159,9 +159,9 @@ Object {
 `;
 
 exports[`cleanses user data 1`] = `
-Object {
-  "data": Array [
-    Object {
+{
+  "data": [
+    {
       "Contact Id": "1369",
       "First Name": "Tupac Amaru",
       "Last Name": "Shakur",
@@ -169,7 +169,7 @@ Object {
       "Registered At": "2000-04-21 10:43:02",
       "Total Value": "34882",
     },
-    Object {
+    {
       "Contact Id": "2224",
       "First Name": "Deon",
       "Last Name": "Evans",
@@ -177,7 +177,7 @@ Object {
       "Registered At": "2008-01-07 14:22:01",
       "Total Value": "0",
     },
-    Object {
+    {
       "Contact Id": "2917",
       "First Name": "Bonnie",
       "Last Name": "Raitt",
@@ -185,7 +185,7 @@ Object {
       "Registered At": "2019-09-23 19:52:44",
       "Total Value": "2857",
     },
-    Object {
+    {
       "Contact Id": "3110",
       "First Name": "Huey",
       "Last Name": "Newton",
@@ -193,7 +193,7 @@ Object {
       "Registered At": "2021-08-24 07:54:32",
       "Total Value": "4715",
     },
-    Object {
+    {
       "Contact Id": "2500",
       "First Name": "Janet",
       "Last Name": "Jackson",
@@ -201,7 +201,7 @@ Object {
       "Registered At": "2014-08-24 07:54:32",
       "Total Value": "0",
     },
-    Object {
+    {
       "Contact Id": "1450",
       "First Name": "Bruce",
       "Last Name": "Hornsby",
@@ -209,7 +209,7 @@ Object {
       "Registered At": "2003-11-11 14:19:26",
       "Total Value": "10387",
     },
-    Object {
+    {
       "Contact Id": "3090",
       "First Name": "Leila",
       "Last Name": "Steinberg",
@@ -217,7 +217,7 @@ Object {
       "Registered At": "2021-08-22 14:03:15",
       "Total Value": "15853",
     },
-    Object {
+    {
       "Contact Id": "3001",
       "First Name": "Franklin",
       "Last Name": "Fields",
@@ -225,7 +225,7 @@ Object {
       "Registered At": "2020-02-24 14:47:21",
       "Total Value": "0",
     },
-    Object {
+    {
       "Contact Id": "2422",
       "First Name": "Isabella",
       "Last Name": "Gibson",
@@ -233,7 +233,7 @@ Object {
       "Registered At": "2009-03-20 23:05:11",
       "Total Value": "7005",
     },
-    Object {
+    {
       "Contact Id": "2995",
       "First Name": "Vicki",
       "Last Name": "Wells",
@@ -247,51 +247,51 @@ Object {
 `;
 
 exports[`deduplicates users 1`] = `
-Object {
-  "data": Array [
-    Object {
+{
+  "data": [
+    {
       "created_at_date": "24/03/2005 13:49:02",
       "email": "tshakur@example.com",
       "id": "cus_FjgM4QEipX9Dj",
       "name": "Tupac Amaru Shakur",
     },
-    Object {
+    {
       "created_at_date": "11/11/2003 06:52:13",
       "email": "bhornsby@example.com",
       "id": "cus_FjgM4eC39HqLy",
       "name": "Bruce Hornsby",
     },
-    Object {
+    {
       "created_at_date": "12/05/2021 01:58:33",
       "email": "steinberg.leila@example.com",
       "id": "cus_FjgMe3HLyjWDa",
       "name": "Leila Steinberg",
     },
-    Object {
+    {
       "created_at_date": "01/05/2006 06:52:13",
       "email": "bhornsby@example.com",
       "id": "cus_FjgM4eC39HqLy",
       "name": "Bruce Hornsby",
     },
-    Object {
+    {
       "created_at_date": "20/06/2020 10:49:08",
       "email": "franklin_f@example.com",
       "id": "cus_FjgMtT1Mrj39H",
       "name": "Franklin Fields",
     },
-    Object {
+    {
       "created_at_date": "07/12/2009 04:32:04",
       "email": "isabella.gibson@example.com",
       "id": "cus_FjgMEiCSESjL9",
       "name": "Isabella Gibson",
     },
-    Object {
+    {
       "created_at_date": "14/12/2012 05:10:17",
       "email": "isabella.gibson@example.com",
       "id": "cus_FjgMEiCSESjL9",
       "name": "Isabella Gibson",
     },
-    Object {
+    {
       "created_at_date": "12/07/2015 10:12:53",
       "email": "tshakur@example.com",
       "id": "cus_FjgM4QEipX9Dj",
@@ -303,39 +303,39 @@ Object {
 `;
 
 exports[`filters to created after 2010 1`] = `
-Object {
-  "data": Array [
-    Object {
+{
+  "data": [
+    {
       "created_at_date": "12/05/2021 01:58:33",
       "email": "steinberg.leila@example.com",
       "id": "cus_FjgMe3HLyjWDa",
       "name": "Leila Steinberg",
     },
-    Object {
+    {
       "created_at_date": "20/06/2020 10:49:08",
       "email": "franklin_f@example.com",
       "id": "cus_FjgMtT1Mrj39H",
       "name": "Franklin Fields",
     },
-    Object {
+    {
       "created_at_date": "14/12/2012 05:10:17",
       "email": "isabella.gibson@example.com",
       "id": "cus_FjgMEiCSESjL9",
       "name": "Isabella Gibson",
     },
-    Object {
+    {
       "created_at_date": "12/05/2021 01:58:33",
       "email": "steinberg.leila@example.com",
       "id": "cus_FjgMe3HLyjWDa",
       "name": "Leila Steinberg",
     },
-    Object {
+    {
       "created_at_date": "12/07/2015 10:12:53",
       "email": "tshakur@example.com",
       "id": "cus_FjgM4QEipX9Dj",
       "name": "Tupac Amaru Shakur",
     },
-    Object {
+    {
       "created_at_date": "20/06/2020 10:49:08",
       "email": "franklin_f@example.com",
       "id": "cus_FjgMtT1Mrj39H",
@@ -347,9 +347,9 @@ Object {
 `;
 
 exports[`filters to first name starting with B 1`] = `
-Object {
-  "data": Array [
-    Object {
+{
+  "data": [
+    {
       "Contact Id": "2917",
       "First Name": "Bonnie",
       "Last Name": "Raitt",
@@ -357,7 +357,7 @@ Object {
       "Registered At": "2019-09-23 19:52:44",
       "Total Value": "2857",
     },
-    Object {
+    {
       "Contact Id": "1450",
       "First Name": "Bruce",
       "Last Name": "Hornsby",
@@ -371,9 +371,9 @@ Object {
 `;
 
 exports[`gets interested, repeat customers 1`] = `
-Object {
-  "data": Array [
-    Object {
+{
+  "data": [
+    {
       "Contact Id": "1450",
       "First Name": "Bruce",
       "Last Name": "Hornsby",
@@ -381,7 +381,7 @@ Object {
       "Registered At": "2003-11-11 14:19:26",
       "Total Value": "10387",
     },
-    Object {
+    {
       "Contact Id": "2422",
       "First Name": "Isabella",
       "Last Name": "Gibson",
@@ -395,9 +395,9 @@ Object {
 `;
 
 exports[`gets total value of all customers 1`] = `
-Object {
-  "data": Array [
-    Object {
+{
+  "data": [
+    {
       "total": 81199,
     },
   ],
@@ -406,9 +406,9 @@ Object {
 `;
 
 exports[`gets users with non-matching emails 1`] = `
-Object {
-  "data": Array [
-    Object {
+{
+  "data": [
+    {
       "mailchimpAudienceName": "Current Customers 2020",
       "mailchimpEmail": "iggy@example.com",
       "mailchimpStatus": "subscribed",
@@ -417,7 +417,7 @@ Object {
       "stripeEmail": "isabella.gibson@example.com",
       "stripeId": "cus_FjgMEiCSESjL9",
     },
-    Object {
+    {
       "mailchimpAudienceName": "New Customers 2021",
       "mailchimpEmail": "steinig@example.com",
       "mailchimpStatus": "subscribed",
@@ -432,9 +432,9 @@ Object {
 `;
 
 exports[`sorts by first name 1`] = `
-Object {
-  "data": Array [
-    Object {
+{
+  "data": [
+    {
       "audienceName": "Drip 2021",
       "emailAddress": "bonnie_raitt_1949@example.com",
       "firstName": "Bonnie",
@@ -442,7 +442,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2019-07-22 21:31:58",
     },
-    Object {
+    {
       "audienceName": "Current Customers 2020",
       "emailAddress": "bhornsby@example.com",
       "firstName": "Bruce",
@@ -450,7 +450,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2008-04-23 08:46:45",
     },
-    Object {
+    {
       "audienceName": "Drip 2021",
       "emailAddress": "deon.evans@example.com",
       "firstName": "Deon",
@@ -458,7 +458,7 @@ Object {
       "status": "removed",
       "subscribeDate": "2008-01-09 18:12:01",
     },
-    Object {
+    {
       "audienceName": "Drip 2019",
       "emailAddress": "franklin_f@example.com",
       "firstName": "Franklin",
@@ -466,7 +466,7 @@ Object {
       "status": "unsubscribed",
       "subscribeDate": "2018-12-07 16:59:23",
     },
-    Object {
+    {
       "audienceName": "New Customers 2021",
       "emailAddress": "hpn@example.com",
       "firstName": "Huey",
@@ -474,7 +474,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2021-02-07 09:40:01",
     },
-    Object {
+    {
       "audienceName": "Current Customers 2020",
       "emailAddress": "iggy@example.com",
       "firstName": "Isabella",
@@ -482,7 +482,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2009-06-18 11:40:20",
     },
-    Object {
+    {
       "audienceName": "Drip 2021",
       "emailAddress": "dunk@example.com",
       "firstName": "Janet",
@@ -490,7 +490,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2014-11-03 18:09:42",
     },
-    Object {
+    {
       "audienceName": "New Customers 2021",
       "emailAddress": "steinig@example.com",
       "firstName": "Leila",
@@ -498,7 +498,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2021-01-05 08:28:45",
     },
-    Object {
+    {
       "audienceName": "Current Customers 2020",
       "emailAddress": "tshakur@example.com",
       "firstName": "Tupac",
@@ -506,7 +506,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2008-02-04 22:08:42",
     },
-    Object {
+    {
       "audienceName": "Drip 2021",
       "emailAddress": "vicki@example.com",
       "firstName": "Vicki",
@@ -520,9 +520,9 @@ Object {
 `;
 
 exports[`sorts by subscription date 1`] = `
-Object {
-  "data": Array [
-    Object {
+{
+  "data": [
+    {
       "audienceName": "Drip 2021",
       "emailAddress": "deon.evans@example.com",
       "firstName": "Deon",
@@ -530,7 +530,7 @@ Object {
       "status": "removed",
       "subscribeDate": "2008-01-09 18:12:01",
     },
-    Object {
+    {
       "audienceName": "Current Customers 2020",
       "emailAddress": "tshakur@example.com",
       "firstName": "Tupac",
@@ -538,7 +538,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2008-02-04 22:08:42",
     },
-    Object {
+    {
       "audienceName": "Current Customers 2020",
       "emailAddress": "bhornsby@example.com",
       "firstName": "Bruce",
@@ -546,7 +546,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2008-04-23 08:46:45",
     },
-    Object {
+    {
       "audienceName": "Current Customers 2020",
       "emailAddress": "iggy@example.com",
       "firstName": "Isabella",
@@ -554,7 +554,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2009-06-18 11:40:20",
     },
-    Object {
+    {
       "audienceName": "Drip 2021",
       "emailAddress": "dunk@example.com",
       "firstName": "Janet",
@@ -562,7 +562,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2014-11-03 18:09:42",
     },
-    Object {
+    {
       "audienceName": "Drip 2019",
       "emailAddress": "franklin_f@example.com",
       "firstName": "Franklin",
@@ -570,7 +570,7 @@ Object {
       "status": "unsubscribed",
       "subscribeDate": "2018-12-07 16:59:23",
     },
-    Object {
+    {
       "audienceName": "Drip 2021",
       "emailAddress": "bonnie_raitt_1949@example.com",
       "firstName": "Bonnie",
@@ -578,7 +578,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2019-07-22 21:31:58",
     },
-    Object {
+    {
       "audienceName": "Drip 2021",
       "emailAddress": "vicki@example.com",
       "firstName": "Vicki",
@@ -586,7 +586,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2020-05-06 17:52:17",
     },
-    Object {
+    {
       "audienceName": "New Customers 2021",
       "emailAddress": "steinig@example.com",
       "firstName": "Leila",
@@ -594,7 +594,7 @@ Object {
       "status": "subscribed",
       "subscribeDate": "2021-01-05 08:28:45",
     },
-    Object {
+    {
       "audienceName": "New Customers 2021",
       "emailAddress": "hpn@example.com",
       "firstName": "Huey",
