@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@upleveled/upleveled'],
+  extends: ['upleveled'],
   rules: {
     '@typescript-eslint/no-unused-vars': 'off',
   },
