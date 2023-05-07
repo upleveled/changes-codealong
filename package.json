@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.21.8",
+    "@jest/globals": "29.5.0",
     "@next/eslint-plugin-next": "13.4.0",
     "@types/node": "18.16.3",
     "@types/react": "18.2.5",
