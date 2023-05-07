@@ -1,25 +1,32 @@
 {
   "name": "changes-codealong",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
   "repository": "git@github.com:upleveled/changes-codealong.git",
   "author": "Karl Horky <karl.horky@gmail.com>",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules yarn jest"
   },
+  "dependencies": {
+    "cross-env": "7.0.3",
+    "csv": "6.2.10",
+    "date-fns": "2.29.3",
+    "json-to-table": "4.2.1",
+    "table": "6.8.1"
+  },
   "devDependencies": {
     "@babel/eslint-parser": "7.21.3",
+    "@jest/globals": "29.5.0",
     "@next/eslint-plugin-next": "13.3.1",
     "@types/node": "18.16.2",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
     "@typescript-eslint/eslint-plugin": "5.59.1",
     "@typescript-eslint/parser": "5.59.1",
-    "eslint-config-upleveled": "4.1.8",
-    "eslint-plugin-upleveled": "2.1.7",
     "eslint": "8.39.0",
     "eslint-config-react-app": "7.0.1",
+    "eslint-config-upleveled": "4.1.8",
     "eslint-import-resolver-typescript": "3.5.5",
     "eslint-plugin-cypress": "2.13.2",
     "eslint-plugin-flowtype": "8.0.3",
@@ -32,15 +39,9 @@
     "eslint-plugin-sonarjs": "0.19.0",
     "eslint-plugin-testing-library": "5.10.3",
     "eslint-plugin-unicorn": "46.0.0",
+    "eslint-plugin-upleveled": "2.1.7",
     "jest": "29.5.0",
     "typescript": "5.0.4"
-  },
-  "dependencies": {
-    "cross-env": "7.0.3",
-    "csv": "6.2.10",
-    "date-fns": "2.29.3",
-    "json-to-table": "4.2.1",
-    "table": "6.8.1"
   },
   "overrides": {
     "@babel/eslint-parser": "7.21.3",
