@@ -68,7 +68,7 @@
     "eslint-plugin-testing-library": "5.11.0",
     "eslint-plugin-unicorn": "47.0.0",
     "libpg-query": "15.0.2",
-    "postcss": "8.4.25",
+    "postcss": "8.4.26",
     "stylelint": "15.10.1",
     "typescript": "5.1.6"
   }
