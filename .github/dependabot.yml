@@ -1,0 +1,45 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: "daily"
+    # Allow only security updates (disable other version updates)
+    # https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates
+    open-pull-requests-limit: 0
+    target-branch: "main"
+    labels:
+      - "dependencies"
+  
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: "daily"
+    # Allow only security updates (disable other version updates)
+    # https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates
+    open-pull-requests-limit: 0
+    target-branch: "solution"
+    labels:
+      - "dependencies"
+  
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: "daily"
+    # Allow only security updates (disable other version updates)
+    # https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates
+    open-pull-requests-limit: 0
+    target-branch: "main"
+    labels:
+      - "dependencies"
+  
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: "daily"
+    # Allow only security updates (disable other version updates)
+    # https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates
+    open-pull-requests-limit: 0
+    target-branch: "solution"
+    labels:
+      - "dependencies"
