@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import { parse, stringify } from 'csv/sync'; // eslint-disable-line import/no-unresolved -- https://github.com/import-js/eslint-plugin-import/issues/1810
+import { parse, stringify } from 'csv/sync';
 import jsonToTable from 'json-to-table';
 import { table } from 'table';
 import {
