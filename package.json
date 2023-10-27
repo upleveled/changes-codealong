@@ -18,7 +18,7 @@
   "devDependencies": {
     "@babel/eslint-parser": "7.22.15",
     "@jest/globals": "29.7.0",
-    "@next/eslint-plugin-next": "13.5.6",
+    "@next/eslint-plugin-next": "14.0.0",
     "@types/node": "20.8.9",
     "@types/react": "18.2.33",
     "@types/react-dom": "18.2.14",
@@ -45,7 +45,7 @@
   },
   "overrides": {
     "@babel/eslint-parser": "7.22.15",
-    "@next/eslint-plugin-next": "13.5.6",
+    "@next/eslint-plugin-next": "14.0.0",
     "@types/node": "20.8.9",
     "@types/react": "18.2.33",
     "@types/react-dom": "18.2.14",
