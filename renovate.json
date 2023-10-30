@@ -2,5 +2,33 @@
   "extends": [
     "github>karlhorky/renovate-config:default.json5"
   ],
-  "baseBranches": ["main", "solution"]
+  "baseBranches": ["main", "solution"],
+  "packageRules": [
+    {
+      "groupName": "dependency upgrades - non-major",
+      "matchDepTypes": [
+        "devDependencies",
+        "dependencies",
+        "peerDependencies",
+        "resolutions",
+        "overrides",
+        "packageManager"
+      ],
+      "updateTypes": ["patch", "minor"],
+      "automerge": true
+    },
+    {
+      "groupName": "dependency upgrades - major",
+      "matchDepTypes": [
+        "devDependencies",
+        "dependencies",
+        "peerDependencies",
+        "resolutions",
+        "overrides",
+        "packageManager"
+      ],
+      "updateTypes": ["major"],
+      "automerge": true
+    }
+  ]
 }
