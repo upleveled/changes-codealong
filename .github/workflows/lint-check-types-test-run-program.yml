@@ -10,8 +10,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
-      - name: Install deps and build (with cache)
-        uses: bahmutov/npm-install@v1
+          cache: 'npm'
       - run: npx eslint . --max-warnings 0
       - run: npx tsc
       - run: npm test
