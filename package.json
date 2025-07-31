@@ -9,7 +9,7 @@
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules yarn jest"
   },
   "dependencies": {
-    "cross-env": "7.0.3",
+    "cross-env": "10.0.0",
     "csv": "6.4.1",
     "date-fns": "4.1.0",
     "json-to-table": "4.2.1",
