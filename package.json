@@ -17,12 +17,12 @@
   },
   "devDependencies": {
     "@jest/globals": "30.0.5",
-    "@types/node": "24.1.0",
-    "eslint-config-upleveled": "9.2.6",
+    "@types/node": "24.2.0",
+    "eslint-config-upleveled": "9.2.12",
     "jest": "30.0.5",
     "typescript": "5.9.2"
   },
   "overrides": {
-    "@types/node": "24.1.0"
+    "@types/node": "24.2.0"
   }
 }
